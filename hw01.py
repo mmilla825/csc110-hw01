@@ -6,6 +6,7 @@
 
 
 def main():
+    
     """
     This is a Docstring for the main function. This is the short description.
 
@@ -28,11 +29,11 @@ def main():
     """
 
     # ========== Setup for HW. DO NOT MODIFY ======
-    x=0
-    y=0
-    a=0
-    b=0
-    c=0
+    x = 0
+    y = 0
+    a = 0
+    b = 0
+    c = 0
     result1 = 0
     result2 = 0
     result3 = 0
@@ -40,27 +41,24 @@ def main():
     result5 = 0
     # End of Setup code ---------------------------
 
-
-
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
     
-x = 27
-y = 1
-a = 1.5
-b = 7
-c = -1
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
     
-result1 = (3*x-9*y)/(2*a*(b-c))
+    result1=(3*x-9*y) / (2*a*(b-c))
     
-print("Part 1: x=", x)
-print("Part 1: y=", y)
-print("Part 1: a=", a)
-print("Part 1: b=", b)
-print("Part 1: c=", c)
-print("Part 1: result=", result1)
-print()
+    print("Part 1: x =", x)
+    print("Part 1: y =", y)
+    print("Part 1: a =", a)
+    print("Part 1: b =", b)
+    print("Part 1: c =", c)
+    print("Part 1: result =", result1)
     
     # End of Part 1 ----------------------
 
@@ -69,15 +67,14 @@ print()
     # =============================================
     # Your code for part 2 under this line and before the print statements
 
-x = 5
-y = -3
+    x = 5
+    y = -3
 
-result2 = (x**2)*(y**4)
+    result2=(x**2) * (y**4)
     
-print ("Part 2: x=", x)
-print ("Part 2: y=", y)
-print ("Part 2: result=", result2)
-print()
+    print("Part 2: x =", x)
+    print("Part 2: y =", y)
+    print("Part 2: result =", result2)
 
     # End of Part 2 ----------------------
 
@@ -86,15 +83,14 @@ print()
     # =============================================
     # Your code for part 3 under this line and before the print statements
 
-a = 100 # treats
-b = 13	# dogs
+    a = 100 # treats
+    b = 13	# dogs
     
-result3 = int(a/b)
+    result3 = int(a/b)
     
-print("Part 3: a=", a)
-print("Part 3: b=", b)
-print("Part 3: result=", result3)
-print()
+    print("Part 3: a =", a)
+    print("Part 3: b =", b)
+    print("Part 3: result =", result3)
 
     # End of Part 3 ----------------------
 
@@ -105,9 +101,9 @@ print()
 
 # number of whole leftover treats after giving each dog an equal # of treats
 
-result4 = a%b
+    result4 = a%b
    
-print("Part 4: result=", result4)
+    print("Part 4: result =", result4)
 
     # End of Part 4 ----------------------
 
